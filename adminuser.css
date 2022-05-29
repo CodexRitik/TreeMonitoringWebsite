@@ -1,0 +1,29 @@
+body{
+    background-color: #DFF1E8;
+}
+.selectoption{
+    margin-top: 50px;
+    text-align: center;
+}
+.selectoption img{
+    border-radius: 50%;
+    min-width: 100px;
+    max-width: 200px;
+}
+.selectoption table{
+    margin: auto;
+    cursor: pointer;
+}
+@media screen and (max-width:600px){
+    .selectoption img{
+        float : none;
+        width : 50%;
+    }
+}
+.selectoption #option{
+    background-color: #0A4126;
+    color: #fff;
+}
+.selectoption h3{
+    color: #0A4126;
+}
